@@ -27,7 +27,7 @@ python -m spacy download en_core_web_sm
 pip uninstall pillow && CC="cc -mavx2" pip install -U --force-reinstall pillow-simd
 ```
 
-4. That's it! Now to set up the environment, run `source activate CCL`.
+4. That's it! Now to set up the environment, run `source activate MCC`.
 
 ## Train/Evaluate models
 Please refer to `models/README.md`.
