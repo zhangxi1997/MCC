@@ -4,9 +4,9 @@
 
 1. Get the dataset. Follow the steps in `data/README.md`. This includes the steps to get the pretrained BERT embeddings and visual representations.
 
-2. Install cuda 10.0 if it's not available already.
+2. Install cuda 11.0 if it's not available already.
 
-3. Install anaconda if it's not available already, and create a new environment. You need to install a few things, namely, pytorch 1.1.0, torchvision, and allennlp.
+3. Install anaconda if it's not available already, and create a new environment. You need to install a few things, namely, pytorch 1.7.1, torchvision, and allennlp.
 
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
@@ -16,7 +16,7 @@ source activate MCC
 
 conda install numpy pyyaml setuptools cmake cffi tqdm pyyaml scipy ipython mkl mkl-include cython typing h5py pandas nltk spacy numpydoc scikit-learn jpeg
 
-conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=11.0 -c pytorch
 
 pip install -r allennlp-requirements.txt
 pip install --no-deps allennlp==0.8.0
