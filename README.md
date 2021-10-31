@@ -36,5 +36,14 @@ Please refer to `models/README.md`.
 ## Acknowledgement
 - We refer to the repo [r2c](https://github.com/rowanz/r2c/) and [tab-vcr](https://github.com/Deanplayerljx/tab-vcr) for preprocessing codes.
 
-
+## Cite
+```
+@inproceedings{zhang2021multi,
+  title={Multi-Level Counterfactual Contrast for Visual Commonsense Reasoning},
+  author={Zhang, Xi and Zhang, Feifei and Xu, Changsheng},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+  pages={1793--1802},
+  year={2021}
+}
+```
 
