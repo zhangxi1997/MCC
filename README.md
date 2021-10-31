@@ -1,4 +1,4 @@
-# The Code for paper ""
+# The Code for MM2021 paper "Multi-Level Counterfactual Contrast for Visual Commonsense Reasoning"
 
 ## Setting up and using the repo
 
@@ -11,8 +11,8 @@
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 conda update -n base -c defaults conda
-conda create --name CCL python=3.6
-source activate CCL
+conda create --name MCC python=3.6
+source activate MCC
 
 conda install numpy pyyaml setuptools cmake cffi tqdm pyyaml scipy ipython mkl mkl-include cython typing h5py pandas nltk spacy numpydoc scikit-learn jpeg
 
