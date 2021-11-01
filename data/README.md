@@ -19,3 +19,6 @@ unzip vcr1annots.zip
     * `https://s3-us-west-2.amazonaws.com/ai2-rowanz/r2c/bert_da_rationale_test.h5`
 
 2. Pre-trained visual representations are generated using code in [Bottom Up Attention](https://github.com/peteanderson80/bottom-up-attention), released by paper [Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering, Peter Anderson et al., 2018](https://arxiv.org/abs/1707.07998).
+
+please refer to [tab-vcr](https://github.com/Deanplayerljx/tab-vcr/tree/master/data) to download the visual features.
+Note that we use the attribute features instead of the new_tag features.
